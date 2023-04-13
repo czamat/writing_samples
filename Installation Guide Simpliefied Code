@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html></html>
+
+<article class="page container">
+  <header class="page-header">
+    <h1 class="page-title">How to install the samples?</h1>
+  </header>
+  <div class="page-content">
+    <p>Samples installation in IBM Cognos Analytics version 11.0.x is different than in IBM Cognos Business Intelligence (BI) version 10.2.2. There are new samples that were created specifically for Cognos Analytics version 11.0.x but the samples from previous Cognos BI releases can also be used.</p>
+
+
+<p>The installation process is slightly different for different groups of samples.</p>
+
+<p>- Base samples:</p>
+
+These samples are installed by default when you perform an <b>Easy install</b> of IBM Cognos Analytics server, or when you select the samples check box in a <b>Custom</b> install. The samples are installed to the <i>cognos_analytics_server_install_location\samples folder</i>.
+
+<p></p><b>Tip</b>: The samples option is not available with the Cognos Analytics AIX installation kit, version 11.0.7 and later. For more information, see <a href="https://www.ibm.com/support/pages/samples-are-not-included-cognos-analytics-version-1107-and-later-aix">this article</a>.</p>
+
+<p>- Extended samples:</p>
+
+These samples have their own install kit <b>bisamples</b>, and must be installed to a different folder than Cognos Analytics.
+
+<p>- Supplementary samples:</p>
+
+These samples are available from Supplementary (Legacy) IBM Cognos Analytics 11 Samples (www.ibm.com/communities/analytics/cognos-analytics-blog/supplementary-ibm-cognos-analytics-11-samples).
+
+<p>For more information, see the <i>Samples for IBM Cognos Analytics Guide</i>.</p>
+  </div>
+</article>
