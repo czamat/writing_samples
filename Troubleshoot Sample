@@ -19,7 +19,7 @@
 After Cognos Analytics is installed, the <b><ca_install_location>/samplesdirectory</b> is not available.</p>
 
 <b>Resolving The Problem</b>
-<b>Option 1</b>
+<b><p>Option 1</b></p>
 
 If you have Cognos Analytics Server installed on a different platform, such as Windows, Linux or Solaris, transfer the samples files from that installation to the AIX installation using a file transfer tool. For example, using an FTP client, transfer the <ca_install_location>/samples directory and its contents from a Windows server installation to your AIX server installation. By default, Cognos Analytics samples are installed to the <ca_install_location/samples directory.
 
