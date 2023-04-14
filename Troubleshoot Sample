@@ -8,7 +8,7 @@
 <p>The [redacted] server installation kit, version 11.0.7 and later, on AIX does not include the product samples.</p>
 
 <b>Cause</b>
-<p>AIX has a 2GB binary limit on program installers. To keep the [redacted]] installer size within the specified limit, the samples files are not included with the installer.</p>
+<p>AIX has a 2GB binary limit on program installers. To keep the [redacted] installer size within the specified limit, the samples files are not included with the installer.</p>
 
 <b>Environment</b>
 <p>AIX</p>
@@ -16,14 +16,14 @@
 <b>Diagnosing The Problem</b>
 <p>When installing [redacted], the component selection panel in the installation wizard does not include the Samples check box.
 
-After Cognos Analytics is installed, the <b><ca_install_location>/samplesdirectory</b> is not available.</p>
+After [redacted] is installed, the <b><ca_install_location>/samplesdirectory</b> is not available.</p>
 
 <b>Resolving The Problem</b>
 <b><p>Option 1</b></p>
 
-If you have Cognos Analytics Server installed on a different platform, such as Windows, Linux or Solaris, transfer the samples files from that installation to the AIX installation using a file transfer tool. For example, using an FTP client, transfer the <ca_install_location>/samples directory and its contents from a Windows server installation to your AIX server installation. By default, Cognos Analytics samples are installed to the <ca_install_location/samples directory.
+If you have [redacted] Server installed on a different platform, such as Windows, Linux or Solaris, transfer the samples files from that installation to the AIX installation using a file transfer tool. For example, using an FTP client, transfer the <ca_install_location>/samples directory and its contents from a Windows server installation to your AIX server installation. By default, [redacted] samples are installed to the <ca_install_location/samples directory.
 
-The samples directory that you transferred to your AIX installation contains the deployment folder with the sample deployments <b>Samples_for_Install</b> and <i><b>[redacted]</b></i>. You need to manually copy these sample deployments to the <b><i><aix_ ca_install_location>\deployment</b></i> directory, and then you can access the sample reports, dashboards, stories, and data in your AIX installation of Cognos Analytics 11.0.7.
+The samples directory that you transferred to your AIX installation contains the deployment folder with the sample deployments <b>Samples_for_Install</b> and <i><b>[redacted]</b></i>. You need to manually copy these sample deployments to the <b><i><aix_ ca_install_location>\deployment</b></i> directory, and then you can access the sample reports, dashboards, stories, and data in your AIX installation of [redacted]11.0.7.
 
 <b>Option 2</b>
 
